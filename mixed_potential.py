@@ -15,7 +15,7 @@ TafelC = 0.1
 T = 298.15
 
 #setting up files and graph
-f = open('reactions.csv')
+f = open('reactions_mixed.csv')
 fig, (ax1) = plt.subplots(1)
 ax1.set_xscale("log")
 plt.xlabel("Current Density "+ "(A/cm^2)")
